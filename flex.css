@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  height: 300px;
+  padding: 10px;
+  background-color: mediumturquoise;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex > div {
+  width: 90%;
+  height: 50px;
+  margin: 10px;
+  background-color: mintcream;
+  border: 10px dotted khaki;
+}
