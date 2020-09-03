@@ -26,15 +26,15 @@ header {
 
 .main {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .main-box {
   width: 800px;
   height: 600px;
   padding: 50px;
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
 }
 
 .main-box1 {
