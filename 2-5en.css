@@ -6,35 +6,22 @@
 
 header {
   width: 100%;
-  margin: 0 auto;
-  padding: 20px;
+  padding: 20px 0;
   text-align: center;
 }
 
 .list {
   text-align: center;
-  border: 2px solid #cccccc;
-}
-
-.list-item {
-  text-align: center;
-  list-style: none;
-  display: inline-block;
-  line-height: 15px;
-  padding: 20px;
-}
-
-.main {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+  padding: 15px 0;
   margin: 0 auto;
 }
 
-.main-box {
-  width: 800px;
-  height: 600px;
-  padding: 50px;
+.list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
 }
 
 .main-box1 {
@@ -108,4 +95,11 @@ footer {
 
 p {
   color: #fff;
+}
+
+.main {
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
 }
